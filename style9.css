@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+body{
+  margin: 0%;
+  
+}
+
+
+.banner {
+
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url(wp4070349.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+
+.navbar3 {
+    width: 95%;
+    margin: auto;
+    padding: 35px, 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 18;
+    font-family: sans-serif;
+}
+
+
+.navbar3 ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar3 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: rgb(94, 93, 92);
+    padding: 20px;
+    border-radius: 35% 10%;
+
+}
+
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 49px;
+    /* border-top: 4px; */
+    margin-left: 150px;
+
+}
+
+.contact-box {
+    max-width: 860px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #818181;
+    box-shadow: 0px 0px 18px 5px rgba(255, 255, 255, 0.19);
+}
+
+.left iframe {
+    padding: 10px 10ox;
+    height: 470px;
+    width: 100%;
+}
+
+.right {
+    padding: 25px 40px;
+}
+
+h2 {
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    height: 4px;
+    width: 40px;
+    border-radius: 2px;
+    background-color: #ffa500;
+}
+
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:black;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #cc00ff;
+    transform: translateY(-5px);
+}
+
+
+.field {
+    width: 100%;
+    border: 2px solid rgba(230, 230, 230, 0.6);
+    padding: .5rem 22px;
+    transition: .3s;
+    margin-bottom: 22px;
+
+}
+
+.field:hover {
+    background-color: black;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+.btn {
+    width: 100%;
+    padding: 7px;
+    background-color: #ffa500;
+    color: #ffffff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.btn:hover {
+    background: #27ae60;
+}
+
+.field:focus {
+    border: 2px solid rgb(30, 85, 250, .7);
+    background: #ffffff;
+}
+
+.copyright{
+    width: 100%;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.copyright p{
+    text-align: center;
+    color:rgb(170, 0, 255);
+}
+
